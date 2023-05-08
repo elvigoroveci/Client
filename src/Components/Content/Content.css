@@ -1,0 +1,79 @@
+.Content {
+  width: 100%;
+}
+.Content .Title-Cont {
+  padding: 40px;
+  text-align: center;
+}
+.Content .Title-Cont h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+}
+.Content .Title-Cont p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.Content .Images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px 120px;
+}
+.Content .Images img {
+  width: 330px;
+  height: auto;
+}
+.Content .second-Cont {
+  margin-top: 30px;
+  width: 100%;
+  height: 760px;
+  background: #F2F5FF;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.Content .second-Cont .discription {
+  margin: 320px 120px;
+}
+.Content .second-Cont .discription h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 39px;
+  color: #054C73;
+  padding: 15px;
+}
+.Content .second-Cont .discription p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 10px;
+}
+.Content .second-Cont .discription button {
+  margin-top: 22px;
+  padding: 14px 57px;
+  background: #054C73;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.Content .second-Cont .discription button:hover {
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.Content .second-Cont .img > img {
+  width: 400px;
+  margin: 60px;
+  border-radius: 50px 0 50px 0px;
+}/*# sourceMappingURL=Content.css.map */

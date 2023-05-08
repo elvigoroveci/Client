@@ -1,0 +1,84 @@
+.Content{
+    width: 100%;
+
+    .Title-Cont {
+        padding: 40px;
+        text-align: center;
+
+        h2{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+        }
+        p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+    }
+    .Images{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 30px 120px;
+        img{
+            width: 330px;
+            height: auto;
+        }
+    }
+    .second-Cont{
+        margin-top: 30px;
+        width: 100%;
+        height: 760px;
+        background: #F2F5FF;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .discription {
+            margin: 320px 120px;
+
+            h2{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 39px;
+                color:  #054C73;
+                padding: 15px;
+            }
+            p {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 30px;
+                padding: 10px;
+            }
+            button{
+                margin-top: 22px;
+                padding: 14px 57px;
+                background: #054C73;
+                border-radius: 50px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 18px;
+                text-transform: uppercase;
+                border: none;
+                color: #FFFFFF;
+                cursor: pointer;
+
+                &:hover{
+                    border-radius: 10px;
+                    transition: 0.4s;
+                }
+            }
+        } 
+        .img > img {
+            width: 400px;
+            margin:60px;
+            border-radius: 50px 0 50px 0px;
+        }
+    }
+}
